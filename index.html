@@ -44,6 +44,20 @@
       }
       .c{
         left: 140px !important;
+    }
+    .overlay2{
+            width: 280px;
+            height: 212px;
+            background: rgba(0,0,0,0.5);
+            position: absolute;
+            left: -280px;
+            transition-property: all;
+            transition-duration: 0.3s;
+            transition-timing-function: ease-out;
+    }
+
+      .box2:hover .overlay2{
+        left: 0px !important;
       }
     </style>
     </head>
@@ -54,6 +68,12 @@
                 <a class="c" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
             </div>
         </div>
+         <div class=" common box box2">
+            <div class="overlay overlay2">
+                <a href="#"><i class="fa-solid fa-link"></i></a>
+                <a class="c" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+
     </body>
 
 </html>
